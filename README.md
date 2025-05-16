@@ -35,21 +35,37 @@ A simple and secure user authentication system built with **Spring Boot**, **Spr
 ## 📁 Project Structure
 
 com.example.User_Login_System
+
 │
+
 ├── Controller
+
 │ └── userController.java
+
 ├── Config
+
 │ └── webConfig.java
+
 ├── Dto
+
 │ └── UserDto.java
+
 ├── Model
+
 │ └── User.java, Role.java
+
 ├── Repository
+
 │ └── UserRepository.java, RoleRepository.java
+
 ├── Service
+
 │ └── userservice.java, userimpl.java, CustomUserDetailsService.java
+
 ├── templates
+
 │ └── register.html, login.html, dashboard.html
+
 └── UserLoginSystemApplication.java
 
 ## Outputs
